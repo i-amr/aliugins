@@ -41,7 +41,7 @@ subprojects {
         author("あ", 710560029077405718L, hyperlink = true)
 
         // TODO: Change to your repository
-        github("https://github.com/i-amr/Gestures")
+        github("https://github.com/i-amr/aliugins")
     }
 
     configure<KtlintExtension> {
