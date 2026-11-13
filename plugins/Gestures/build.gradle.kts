@@ -1,4 +1,4 @@
-version = "1.0"
+version = "1.0.0"
 description = "Swipe right to paste, left to clear"
 
 aliucord {
@@ -6,7 +6,7 @@ aliucord {
         """
         Changelog {added}
         ======================
-        * v1.0 - Initial release
+        * v1.0.0 - Initial release
         """.trimIndent(),
     )
 
