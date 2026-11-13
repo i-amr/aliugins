@@ -29,14 +29,13 @@ public class Plugin extends com.aliucord.entities.Plugin {
 
             textInput.setOnTouchListener(
                 new OnSwipeListener(ctx) {
-                  public void onSwipeRight() {
-                    super.onSwipeRight();
+                  public void onSwipeLeft() {
+                    super.onSwipeLeft();
                     textInput.setText("");
                   }
 
-                  public void onSwipeLeft() {
-                    super.onSwipeLeft();
-
+                  public void onSwipeRight() {
+                    super.onSwipeRight();
                     if (clipboard == null || !clipboard.hasPrimaryClip()) { return; }
 
                     ClipDescription description = clipboard.getPrimaryClipDescription();
