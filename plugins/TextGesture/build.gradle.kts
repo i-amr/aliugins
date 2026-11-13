@@ -1,5 +1,5 @@
 version = "1.0.0"
-description = "Swipe right to paste, left to clear"
+description = "adds quick swipe gestures directly to the chat input field, swipe right to paste, left to clear"
 
 aliucord {
     changelog.set(
