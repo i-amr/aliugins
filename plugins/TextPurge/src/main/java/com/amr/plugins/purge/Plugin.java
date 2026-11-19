@@ -92,7 +92,7 @@ public class Plugin extends com.aliucord.entities.Plugin {
       final Http.QueryBuilder searchUrl = 
           new Http.QueryBuilder((isGuild ? "/guilds/" + guildId : "/channels/" + channelId) + "/messages/search")
               .append("author_id", authorIdStr)
-              .append("offset", String.valueOf(of fset));
+              .append("offset", String.valueOf(offset));
       if(isGuild) searchUrl.append("channel_id", String.valueOf(channelId));
 
       Http.Response searchRes = Http.Request
