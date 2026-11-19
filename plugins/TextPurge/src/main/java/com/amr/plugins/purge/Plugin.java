@@ -33,7 +33,7 @@ public class Plugin extends com.aliucord.entities.Plugin {
     List<ApplicationCommandOption> options = Arrays.asList(
       Utils.createCommandOption(ApplicationCommandType.USER,    "user",  "The user whose messages you want to delete", null, true, true),
       Utils.createCommandOption(ApplicationCommandType.INTEGER, "limit", "Max number of messages to delete (default: " + DEFAULT_LIMIT + ")", null, false, true),
-      Utils.createCommandOption(ApplicationCommandType.BOOLEAN, "stop",  "Set to True to cancel an active purge", null, false, true)
+      Utils.createCommandOption(ApplicationCommandType.BOOLEAN, "stop",  "Set to \"true\" to cancel an active purge", null, false, true)
     );
 
     commands.registerCommand("purge", "Bulk delete messages from a specific user", options,
