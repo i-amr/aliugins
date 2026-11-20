@@ -18,7 +18,7 @@ subprojects {
 
     configure<LibraryExtension> {
         // TODO: Change to your package name
-        namespace = "com.amr.plugins.gesture"
+        namespace = "com.amr.plugins"
         compileSdk = 36
 
         defaultConfig {
